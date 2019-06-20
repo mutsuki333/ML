@@ -12,8 +12,11 @@ def edge():
     Usage: python edge.py PATH/TO/FILE
     """
 
-    img = cv2.imread(sys.argv[1],0)
+    img = cv2.imread(sys.argv[1],cv2.IMREAD_COLOR)
     edges = cv2.Canny(img,100,200)
+
+    # cv2.imshow('title',edges)
+    # cv2.waitKey(0)
 
     plt.subplot(121),plt.imshow(img,cmap = 'gray')
     plt.title('Original Image'), plt.xticks([]), plt.yticks([])
