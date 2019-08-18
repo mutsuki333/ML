@@ -1,0 +1,30 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "axios": "^0.19.0",
+    "babel-polyfill": "^6.26.0",
+    "bulma": "^0.7.5",
+    "parcel": "^1.12.3",
+    "pug": "^2.0.4",
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.22.10",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-meta": "^2.2.1",
+    "vue-router": "^3.1.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "scripts": {
+    "serve": "python ../server.py",
+    "parcel-build": "parcel build ./src/main.js --public-url .",
+    "parcel-watch": "parcel watch ./src/main.js --public-url .",
+    "pug": "pug ./index.pug --out dist"
+  },
+  "alias": {
+    "src": "./src"
+  }
+}
