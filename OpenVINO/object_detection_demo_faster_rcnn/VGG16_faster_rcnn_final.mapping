@@ -1,0 +1,203 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="conv1_1" out_port_id="conv1_1"/>
+		<IR id="1" name="conv1_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="relu3_3" out_port_id="conv3_3"/>
+		<IR id="16" name="relu3_3" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="rpn_cls_prob" out_port_id="rpn_cls_prob"/>
+		<IR id="36" name="rpn_cls_prob" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="pool3" out_port_id="pool3"/>
+		<IR id="17" name="pool3" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="relu4_3" out_port_id="conv4_3"/>
+		<IR id="23" name="relu4_3" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="relu3_1" out_port_id="conv3_1"/>
+		<IR id="12" name="relu3_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="relu1_2" out_port_id="conv1_2"/>
+		<IR id="4" name="relu1_2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="relu5_2" out_port_id="conv5_2"/>
+		<IR id="28" name="relu5_2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_1" out_port_id="conv4_1"/>
+		<IR id="18" name="conv4_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_3" out_port_id="conv3_3"/>
+		<IR id="15" name="conv3_3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv5_3" out_port_id="conv5_3"/>
+		<IR id="29" name="conv5_3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="rpn_relu/3x3" out_port_id="rpn/output"/>
+		<IR id="32" name="rpn_relu/3x3" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="drop6" out_port_id="fc6"/>
+		<IR id="44" name="relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="relu6" out_port_id="fc6"/>
+		<IR id="44" name="relu6" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="roi_pool5" out_port_id="pool5"/>
+		<IR id="42" name="roi_pool5" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="cls_score" out_port_id="cls_score"/>
+		<IR id="48" name="cls_score" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv2_2" out_port_id="conv2_2"/>
+		<IR id="8" name="conv2_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="rpn_cls_score_reshape" out_port_id="rpn_cls_score_reshape"/>
+		<IR id="35" name="rpn_cls_score_reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="im_info" out_port_id="im_info"/>
+		<IR id="40" name="im_info" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="relu5_3" out_port_id="conv5_3"/>
+		<IR id="30" name="relu5_3" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv4_2" out_port_id="conv4_2"/>
+		<IR id="20" name="conv4_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv1_2" out_port_id="conv1_2"/>
+		<IR id="3" name="conv1_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_2" out_port_id="conv3_2"/>
+		<IR id="13" name="conv3_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv2_1" out_port_id="conv2_1"/>
+		<IR id="6" name="conv2_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="relu1_1" out_port_id="conv1_1"/>
+		<IR id="2" name="relu1_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="conv5_1" out_port_id="conv5_1"/>
+		<IR id="25" name="conv5_1" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="relu2_1" out_port_id="conv2_1"/>
+		<IR id="7" name="relu2_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="drop7" out_port_id="fc7"/>
+		<IR id="46" name="relu7" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="relu7" out_port_id="fc7"/>
+		<IR id="46" name="relu7" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="relu3_2" out_port_id="conv3_2"/>
+		<IR id="14" name="relu3_2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="rpn_cls_prob_reshape" out_port_id="rpn_cls_prob_reshape"/>
+		<IR id="38" name="rpn_cls_prob_reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="conv5_2" out_port_id="conv5_2"/>
+		<IR id="27" name="conv5_2" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv4_3" out_port_id="conv4_3"/>
+		<IR id="22" name="conv4_3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="rpn_cls_score" out_port_id="rpn_cls_score"/>
+		<IR id="33" name="rpn_cls_score" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="pool4" out_port_id="pool4"/>
+		<IR id="24" name="pool4" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="relu4_2" out_port_id="conv4_2"/>
+		<IR id="21" name="relu4_2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="pool1" out_port_id="pool1"/>
+		<IR id="5" name="pool1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="relu5_1" out_port_id="conv5_1"/>
+		<IR id="26" name="relu5_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="relu2_2" out_port_id="conv2_2"/>
+		<IR id="9" name="relu2_2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="data" out_port_id="data"/>
+		<IR id="0" name="data" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="pool2" out_port_id="pool2"/>
+		<IR id="10" name="pool2" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="cls_prob" out_port_id="0"/>
+		<IR id="49" name="cls_prob" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fc7" out_port_id="fc7"/>
+		<IR id="45" name="fc7" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="relu4_1" out_port_id="conv4_1"/>
+		<IR id="19" name="relu4_1" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="rpn_bbox_pred" out_port_id="rpn_bbox_pred"/>
+		<IR id="39" name="rpn_bbox_pred" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="fc6" out_port_id="fc6"/>
+		<IR id="43" name="fc6" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="bbox_pred" out_port_id="0"/>
+		<IR id="47" name="bbox_pred" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="rpn_conv/3x3" out_port_id="rpn/output"/>
+		<IR id="31" name="rpn_conv/3x3" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="proposal" out_port_id="rois"/>
+		<IR id="41" name="proposal" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="conv3_1" out_port_id="conv3_1"/>
+		<IR id="11" name="conv3_1" out_port_id="3"/>
+	</map>
+</mapping>
